@@ -1,5 +1,9 @@
 lighthouse-web-notes
 # Guillaume's Notes
+## Summary 
+
+This repository contains all of the notes taken by Guillaume for the Lighthouse Labs Web Development Bootcamp.
+
 # This is an H1 header (largest)
 ## This is an H2 header 
 ### This is an H3 header 
