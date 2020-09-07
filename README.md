@@ -1,4 +1,4 @@
-<img alt="" class="d-inline-block align-top animated rollIn" src="http://graphicl.ca/blog/wp-content/uploads/2018/07/logoglsmall.svg" width="100px" height="100px">
+[<img alt="" class="d-inline-block align-top animated rollIn" src="http://graphicl.ca/blog/wp-content/uploads/2018/07/logoglsmall.svg" width="100px" height="100px">](http://graphicl.ca/)
 # Guillaume's Notes
 ## Summary 
 
