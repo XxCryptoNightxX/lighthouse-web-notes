@@ -196,16 +196,14 @@ footer h4 {
   flex: 2;
 }
 
-/*
-footer {
+.about-2{
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: flex-start;
 }
-
-footer ul {
-  text-align: right;
-}
-*/
 
 /* Transitions */
 
@@ -233,6 +231,24 @@ meter::-webkit-meter-bar {
 meter::-webkit-meter-optimum-value {
   background: white;
 }
+.readmore {
+  background-color:black;
+  border-radius:42px;
+  border:1px solid aliceblue;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:19px;
+  padding:9px 13px;
+  text-decoration:none;
+}
+.readmore:hover {
+  background-color:#0000007a;
+}
+.readmore:active {
+  position:relative;
+  top:1px;
+}
 .dwnBtn {
   background-color:transparent;
   border-radius:42px;
@@ -254,6 +270,7 @@ meter::-webkit-meter-optimum-value {
 .profil{
   height: 300px;
   border-radius: 50%;
+  border: 5px solid #dadada;
 }
 .starbuck{
   border-radius: 50%;
@@ -264,6 +281,7 @@ header{
   background: url(tile_background.png),#228bdc;
   background-size: 25%;
   animation: animatedBackground 100s linear infinite;
+  background-attachment: fixed;
 }
 @keyframes animatedBackground {
   from {
@@ -272,4 +290,17 @@ header{
   to {
     background-position: 100% 100%;
   }
+}
+.img-shadow
+{
+  animation: glow 5s linear 2s infinite alternate;
+  overflow: hidden;
+  filter: drop-shadow(0 0 0px #000);
+}
+@keyframes glow {
+    0%   {filter: drop-shadow(0 0 0px #000);}
+    25%  {filter: drop-shadow(0 0 4px #fff);}
+    50%  {filter: drop-shadow(0 0 6px #fff);}
+    75%  {filter: drop-shadow(0 0 8px #fff);}
+    100% {filter: drop-shadow(0 0 10px #fff);}
 }
