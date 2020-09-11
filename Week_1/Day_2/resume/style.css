@@ -148,6 +148,15 @@ nav ul li{
   padding: 8px 40px 8px 40px ;
 }
 
+.name-container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  background-color: #3e404040;
+  border-radius: 5%;
+  margin: 5%;
+}
 .name-container {
   display: flex;
   justify-content: space-between;
@@ -204,13 +213,12 @@ nav li a {
   text-decoration: none;
   transition-property: color;
   transition-duration: 1s;
-  transition-delay: 0.5s;
 }
 
 /* Pseudo Selectors */
 
 nav li a:hover {
-  color: pink;
+  color: black;
 }
 
 
@@ -242,4 +250,26 @@ meter::-webkit-meter-optimum-value {
 .dwnBtn:active {
   position:relative;
   top:1px;
+}
+.profil{
+  height: 300px;
+  border-radius: 50%;
+}
+.starbuck{
+  border-radius: 50%;
+  height:50px;
+  width: auto;
+}
+header{
+  background: url(tile_background.png),#228bdc;
+  background-size: 25%;
+  animation: animatedBackground 100s linear infinite;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
 }
