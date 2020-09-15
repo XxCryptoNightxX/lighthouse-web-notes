@@ -18,6 +18,12 @@ header .profil{
 	width: 256px;
     height: 256px;
     background-image: url(../images/profile-hex.png);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 header .profil img{
@@ -49,4 +55,11 @@ header .profil img{
   display: inline-block;
   font-weight: 600;
   margin-left: 4px;
+}
+.bold{
+	font-weight: bold;
+}
+nav a{
+	text-decoration: none;
+	color: white;
 }
