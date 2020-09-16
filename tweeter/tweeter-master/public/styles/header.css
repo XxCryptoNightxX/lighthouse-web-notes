@@ -1,4 +1,4 @@
-header{
+.jumbotron{
 	height: 400px;
 	width: 100%;
 	display: flex;
@@ -9,12 +9,12 @@ header{
     align-items: center;
     background-image: url(https://www.transparenttextures.com/patterns/diagmonds-light.png);
 }
-header div {
+.jumbotron div {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
 }
-header .profil{
+.jumbotron .profil{
 	width: 256px;
     height: 256px;
     background-image: url(../images/profile-hex.png);
@@ -26,7 +26,7 @@ header .profil{
     align-items: center;
 }
 
-header .profil img{
+.jumbotron .profil img{
 	clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 	height: 256px;
 	width: auto;
